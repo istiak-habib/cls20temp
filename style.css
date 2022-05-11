@@ -1,0 +1,128 @@
+/* header */
+
+.header {
+    background-color: #cfeaff;
+}
+
+.h-pic {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.h-pic img {
+    width: 50px;
+}
+
+.h-mainmenu {
+    list-style: none;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.h-mainmenu li {
+    display: inline-block;
+    padding: 17px 10px;
+}
+
+.h-mainmenu li a {
+    text-decoration: none;
+    display: block;
+    color: rgb(141, 141, 141);
+    font-size: 18px;
+    transition: .5s;
+}
+
+.h-mainmenu li a:hover{
+    color: #000;
+}
+
+.h-form {
+    margin-top: 10px;
+}
+
+.h-search {
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.h-button {
+    margin-top: 10px;
+}
+
+.h-button button {
+    border: 2px solid #3eb05b;
+    border-radius: 4px;
+    padding: 5px 15px;
+    color: #3eb05b;
+    background-color: #cfeaff;
+    transition: .5s;
+}
+
+.h-button button:hover{
+    color: #fff;
+    background-color: #3eb05b;
+}
+
+/* sub-header */
+
+.breadcrumb {
+    padding: 15px 15px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.sub-header {
+    margin-top: 50px;
+}
+
+.sh-toast {
+    box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+/* banner */
+
+.banner {
+    margin-top: 50px;
+}
+
+.d-block.w-100 {
+    height: 550px;
+}
+
+/* service-1 */
+
+.s1-toast {
+    background-color: #d4edda;
+    height: 100px;
+    color: #1d5d2b;
+    border-radius: 5px;
+}
+
+.btn-close {
+    margin-bottom: 45px;
+}
+
+/* service-4 */
+
+.scrollspy-example {
+  position: relative;
+  height: 200px;
+  margin-top: .5rem;
+  overflow: auto;
+}
+
+/* footer */
+
+.footer {
+    background-color: #0a97bb;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.footer p {
+    margin-bottom: 0px;
+}
